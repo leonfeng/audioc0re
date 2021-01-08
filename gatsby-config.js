@@ -2,7 +2,7 @@ const { accessToken, spaceId } = require("./secrets");
 
 module.exports = {
   siteMetadata: {
-    title: "Audioc0re",
+    title: "AudioC0RE",
   },
   plugins: [
     {
