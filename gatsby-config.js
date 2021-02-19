@@ -5,7 +5,11 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "AudioC0RE",
+    titleTemplate: "%s · the (fake) headphone sharing startup",
+    description: "the leading headphones sharing app in the world",
     siteUrl: "https://audioc0re-main.netlify.app/",
+    image: "",
+    twitterUsername: "@audioc0re",
   },
   plugins: [
     {
