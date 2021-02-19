@@ -39,5 +39,18 @@ module.exports = {
     },
     "gatsby-plugin-image",
     "gatsby-plugin-preact",
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        background_color: "#f7f0eb",
+        display: "standalone",
+        icon: "src/images/icon.png",
+        name: "AudioC0RE",
+        short_name: "AudioC0RE",
+        start_url: "/",
+        theme_color: "#a2466c",
+      },
+    },
+    "gatsby-plugin-offline",
   ],
 };
