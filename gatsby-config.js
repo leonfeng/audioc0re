@@ -71,6 +71,12 @@ module.exports = {
         url:
           process.env.WPGRAPHQL_URL ||
           "https://wpgatsbydemo.wpengine.com/graphql",
+        auth: {
+          htaccess: {
+            username: process.env.WP_HTACCESS_USERNAME,
+            password: process.env.WP_HTACCESS_PASSWORD,
+          },
+        },
       },
     },
   ],
